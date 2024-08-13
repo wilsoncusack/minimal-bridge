@@ -14,7 +14,7 @@
 
 ## 🚨 DEPRECATION WARNING 🚨
 
-With the upstreaming of most op-viem features into [Viem](https://viem.sh/op-stack) consider this library deprecated. We recommend using [Viem's native OP Stack support](https://viem.sh/op-stack) instead.
+With the upstreaming of most op-viem features into [Viem](https://viem.sh/docs/getting-started) consider this library deprecated. We recommend using [Viem's native OP Stack support](https://viem.sh/op-stack) instead.
 
 ## Features
 
