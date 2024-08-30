@@ -1,5 +1,9 @@
 # OP Viem
 
+## 🚨 DEPRECATION WARNING 🚨
+
+With the upstreaming of most op-viem features into [Viem](https://viem.sh/op-stack) consider this library deprecated. We recommend using [Viem's native OP Stack support](https://viem.sh/op-stack) instead.
+
 ## Overview
 
 op-viem is a TypeScript extension for [Viem](https://viem.sh) that provides actions for working with [OP Stack](https://stack.optimism.io/) L2 chains such as [Optimism](https://community.optimism.io/docs/useful-tools/networks/) and [Base](https://docs.base.org/).
