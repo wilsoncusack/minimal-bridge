@@ -57,7 +57,7 @@ opStackL1PublicClient.getOutputForL2Block(blockNumber: 2725977n, ...baseAddresse
 
 Check out the following places for more viem-related content:
 
-- Follow [@wilsoncusack](https://twitter.com/wilsoncusack) Twitter for project updates
+- Follow [@wilsoncusack](https://x.com/wilsoncusack) X (formerly Twitter) for project updates
 
 ## Contributing
 
@@ -65,9 +65,9 @@ If you're interested in contributing, please read the [contributing docs](CONTRI
 
 ## Authors
 
-- [@wilsoncusack](https://github.com/wilsoncusack) (wilsoncusack.eth [Twitter](https://twitter.com/wilsoncusack))
-- [@zencephalon](https://github.com/zencephalon) (zencephalon.eth, [Twitter](https://twitter.com/zencephalon))
-- [@roninjin10](https://github.com/roninjin10) (fucory.eth, [Twitter](https://twitter.com/FUCORY))
+- [@wilsoncusack](https://github.com/wilsoncusack) (wilsoncusack.eth [X (Twitter)](https://x.com/wilsoncusack))
+- [@zencephalon](https://github.com/zencephalon) (zencephalon.eth, [X (Twitter)](https://x.com/zencephalon))
+- [@roninjin10](https://github.com/roninjin10) (fucory.eth, [X (Twitter)](https://x.com/FUCORY))
 
 ## License
 
