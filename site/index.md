@@ -56,5 +56,5 @@ export const opStackL2PublicClient = createPublicClient({
 }).extend(publicL2OpStackActions)
 
 // perform an action
-opStackL1PublicClient.getOutputForL2Block(blockNumber: 2725977n, ...baseAddresses)
+await opStackL1PublicClient.getOutputForL2Block(blockNumber: 2725977n, ...baseAddresses)
 ```

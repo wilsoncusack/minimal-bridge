@@ -35,7 +35,7 @@
 - fa49872: Update minGasLimit to be type number for consistency with ABI
 - 745a65a: Fix getTransactionHash to use un-decorated function for better tree shaking
 - 7a21a29: readFinalizedWithdrawals, txReceipt to getDeposits and getWithdrawals
-- 7d16f9b: Actions now receive contract addresses instead of L2 config objects for simplicty and Viem upstream compatibility. op-viem/chains now eexports addresses objects that be spread into actions to pass the required address.
+- 7d16f9b: Actions now receive contract addresses instead of L2 config objects for simplicty and Viem upstream compatibility. op-viem/chains now exports addresses objects that be spread into actions to pass the required address.
 
   Previously
 
@@ -89,7 +89,7 @@
 
 ### Patch Changes
 
-- 7d16f9b: Actions now receive contract addresses instead of L2 config objects for simplicty and Viem upstream compatibility. op-viem/chains now eexports addresses objects that be spread into actions to pass the required address.
+- 7d16f9b: Actions now receive contract addresses instead of L2 config objects for simplicity and Viem upstream compatibility. op-viem/chains now exports addresses objects that be spread into actions to pass the required address.
 
   Previously
 

@@ -10,7 +10,7 @@ head:
 
 # getDepositTransaction
 
-Returns a [DepositTransaction](/docs/glossary/types#deposittransaction) from a [TransactionDepositedEvent](/docs/glossary/types#transasctiondepositedevent) and [sourceHash](/docs/glossary/types#sourcehash) or logIndex, L1 block hash and [SourceHashDomain](/docs/glossary/types#sourcehashdomain).
+Returns a [DepositTransaction](/docs/glossary/types#deposittransaction) from a [TransactionDepositedEvent](/docs/glossary/types#transactiondepositedevent) and [sourceHash](/docs/glossary/types#sourcehash) or logIndex, L1 block hash and [SourceHashDomain](/docs/glossary/types#sourcehashdomain).
 
 Internally, if [`sourceHash`](#sourcehash-optional) not provided, will call [`getSourceHash({ domain, logIndex, l1BlockHash })`](docs/utilities/deposits/getSourceHash).
 
