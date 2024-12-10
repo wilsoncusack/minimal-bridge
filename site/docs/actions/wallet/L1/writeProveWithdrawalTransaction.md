@@ -1,6 +1,6 @@
 # writeProveWithdrawalTransaction
 
-Excutes a [proveWithdrawalTransaction](https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts-bedrock/src/L1/OptimismPortal.sol#L208) call to the `OptimismPortal` contract.
+Executes a [proveWithdrawalTransaction](https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts-bedrock/src/L1/OptimismPortal.sol#L208) call to the `OptimismPortal` contract.
 
 ::: info
 This is the second step in a withdrawal flow, or more generally, an L2 -> L1 call flow.
@@ -19,7 +19,7 @@ From Viem [writeContract](https://viem.sh/docs/contract/writeContract.html#write
 
 > The `writeContract` internally sends a transaction – it **does not** validate if the contract write will succeed (the contract may throw an error). It is highly recommended to [simulate the contract write with `simulateContract`](#usage) before you execute it.
 
-In this case, you can use [simulateProveWithdrawalTransactoin](/docs/actions/public/L1/simulateProveWithdrawalTransactoin).
+In this case, you can use [simulateProveWithdrawalTransaction](/docs/actions/public/L1/simulateProveWithdrawalTransaction).
 
 :::
 
