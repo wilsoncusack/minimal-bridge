@@ -89,7 +89,7 @@
 
 ### Patch Changes
 
-- 7d16f9b: Actions now receive contract addresses instead of L2 config objects for simplicty and Viem upstream compatibility. op-viem/chains now eexports addresses objects that be spread into actions to pass the required address.
+- 7d16f9b: Actions now receive contract addresses instead of L2 config objects for simplicity and Viem upstream compatibility. op-viem/chains now exports addresses objects that be spread into actions to pass the required address.
 
   Previously
 
