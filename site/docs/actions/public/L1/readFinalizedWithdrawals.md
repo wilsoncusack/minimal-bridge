@@ -1,6 +1,6 @@
 # readFinalizedWithdrawals
 
-Returns a boolean for whether the withdrawal of a given withdrawl hash has been finalized.
+Returns a boolean for whether the withdrawal of a given withdrawal hash has been finalized.
 
 ```ts [example.ts]
 import { publicL1Actions } from 'op-viem'
