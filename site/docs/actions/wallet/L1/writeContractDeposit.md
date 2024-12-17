@@ -86,7 +86,7 @@ The `OptimismPortal` contract, or equivalent, facilitating the L1 to L2 transiti
 
 ## Notes
 
-- The function will throw an error if `strict` is `true` and the `account` is a smart contract. This is to mitigate unexpected behavior due to [address aliasing](https://github.com/ethereum-optimism/optimism/blob/develop/specs/deposits.md#address-aliasing).
+- The function will throw an error if `strict` is `true` and the `account` is a smart contract. This is to mitigate unexpected behavior due to [address aliasing](https://github.com/ethereum-optimism/optimism/blob/master/specs/deposits.md#address-aliasing).
 
 - The function uses `encodeFunctionData` to create calldata for the L2 transaction, thus requiring ABI, function name, and args.
 
