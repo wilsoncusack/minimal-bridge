@@ -21,7 +21,7 @@ export type StorageProof = {
   proof: Hex[]
 }
 
-// NOTE(wilson): This should be suported in viem but isn't currently
+// NOTE(wilson): This should be supported in viem but isn't currently
 export async function getProof<TChain extends Chain | undefined>(
   client: PublicClient<Transport, TChain>,
   { address, storageKeys, block }: GetProofParameters,
