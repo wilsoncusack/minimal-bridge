@@ -1,6 +1,6 @@
 # writeDepositTransaction
 
-Excutes a [depositTransaction](https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts-bedrock/src/L1/OptimismPortal.sol#L374) call to the [`OptimismPortal`](https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts-bedrock/src/L1/OptimismPortal.sol) contract.
+Executes a [depositTransaction](https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts-bedrock/src/L1/OptimismPortal.sol#L374) call to the [`OptimismPortal`](https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts-bedrock/src/L1/OptimismPortal.sol) contract.
 
 Unlike [writeSendMessage](docs/actions/wallet/L1/writeSendMessage), using this call does not offer replayability on L2 in the case the L2 tx fails. But this call has the advantage that, if the caller is an EOA, msg.sender of the L2 tx will be the caller address. Allowing users to fully tranasact on L2 from L1, which is a critical security property.
 
