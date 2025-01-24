@@ -1,6 +1,6 @@
 # writeSendMessage
 
-Excutes a [sendMessage](https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts-bedrock/src/universal/CrossDomainMessenger.sol#L180) call to the [`L1CrossDomainMessenger`](https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts-bedrock/src/L1/L1CrossDomainMessenger.sol) contract. This is a fairly low level function and generally it will be more convenient to use [`writeContractDeposit`](/docs/actions/wallet/L1/writeContractDeposit).
+Executes a [sendMessage](https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts-bedrock/src/universal/CrossDomainMessenger.sol#L180) call to the [`L1CrossDomainMessenger`](https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts-bedrock/src/L1/L1CrossDomainMessenger.sol) contract. This is a fairly low level function and generally it will be more convenient to use [`writeContractDeposit`](/docs/actions/wallet/L1/writeContractDeposit).
 
 ::: warning
 
